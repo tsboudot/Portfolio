@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Kanit:wght@300;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: "Exo 2", sans-serif;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(99, 164, 233);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+a.visited {
+  color: rgb(99, 164, 233);
+}
+
+.home,
+.portfolio,
+.contact {
+  display: flex;
+}
+@media screen and (max-width: 850px) {
+  .home,
+  .portfolio,
+  .contact {
+    display: block !important;
+  }
+}
+
+.homeContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+}
+@media screen and (max-width: 850px) {
+  .homeContent,
+  .portfolioContent,
+  .contactContent {
+    margin: 0;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #2a1d52;
+  font-family: "Exo 2", sans-serif;
+  height: 100%;
+  min-height: 95vh;
+  min-width: 240px;
+  border-radius: 15px;
+}
+.sidebar .id {
+  color: #ddd;
+  font-size: larger;
+  font-weight: 800;
+}
+@media screen and (max-width: 850px) {
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+.sidebar .navigation li {
+  padding: 25px;
+  font-size: large;
+  font-weight: 500;
+  padding: 15px;
+  border: 2px solid rgb(99, 164, 233);
+  margin: 10px;
+  border-radius: 5px;
+}
+.sidebar .navigation li i {
+  margin-right: 25px;
+}
+.sidebar .navigation li:hover i {
+  transform: translate(5px, 1px);
+}
+.sidebar .navigation li:hover a {
+  text-decoration: underline;
+  color: lightgreen;
+}
+.sidebar .navigation li .navActive {
+  color: lightgreen;
+  background-color: lightgrey;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=styles.css.map */
