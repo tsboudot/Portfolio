@@ -22,7 +22,7 @@
             "id": 2,
             "titre": "Oh my food - Plateforme de commandes auprès de restaurateurs",
             "lien github": "https://github.com/tsboudot/projet_4.git",
-            "photo_header": "../src/media/ImagesPortfolio/Ohmyfood/Omf1.png",
+            "photo_header": "/ImagesPortfolio/Ohmyfood/Omf1.png",
             "résumé": "Intégration de différentes pages avec animations CSS. Travail en *Mobile First*,",
             "description": "Ce projet consistait au développement et l'intégration de différentes pages HTML, en utilisant SASS et les animations CSS pour obtenir un résultat conforme à la maquette.",
             "diapositives": [
@@ -40,7 +40,7 @@
             "id": 3,
             "titre": "Sophie Bluel - Architecte d'interieur",
             "lien github": "https://github.com/tsboudot/P06-master.git",
-            "photo_header": "../src/media/ImagesPortfolio/SophieBluel/SophieBluel.png",
+            "photo_header": "/ImagesPortfolio/SophieBluel/SophieBluel.png",
             "résumé": "Introduction au Javascript",
             "description": "Ce projet nécéssitait une bonne maitrise du Javascript natif, pour passer des appels à une API, créer des fonctions de filtrage et de connexion, ou encore intégrer une modale.",
             "diapositives": [
@@ -58,7 +58,7 @@
             "id": 4,
             "titre": "Kasa - Annonces immobilières",
             "lien github": "https://github.com/tsboudot/KasaP08.git",
-            "photo_header": "../src/media/ImagesPortfolio/Kasa/kasa1.png",
+            "photo_header": "/ImagesPortfolio/Kasa/kasa1.png",
             "résumé": "Découverte de React.js",
             "description": "Ce projet consistait au développement et l'intégration d'une Single Page Application, conformément à une maquette, en utilisant les fonctionnalités de la bibliothèque REACT.js.",
             "diapositives": [
@@ -76,7 +76,7 @@
             "id": 5,
             "titre": "Nina Carducci - Photographe",
             "lien github": "https://github.com/tsboudot/p09-NinaCarducci.git",
-            "photo_header": "../src/media/ImagesPortfolio/NinaCarducci/NinaCarducci1.png",
+            "photo_header": "/ImagesPortfolio/NinaCarducci/NinaCarducci1.png",
             "résumé": "Optimisation et référencement d'un site",
             "description": "Pour ce projet, il fallait améliorer les performances du site de Mme Carducci, en travaillant sur certains aspects techniques. J'ai également travaillé avec lighthouse et les Google Rich Snippets pour améliorer le référencement.",
             "diapositives": [
@@ -94,7 +94,7 @@
             "id": 6,
             "titre": "77events - Site d'évennementiel",
             "lien github": "https://github.com/tsboudot/p10-77events.git",
-            "photo_header": "../src/media/ImagesPortfolio/77events/77events1.png",
+            "photo_header": "/ImagesPortfolio/77events/77events1.png",
             "résumé": "Découverte de JEST.js pour le débuggage d'un site ",
             "description": "Ce projet consistait à travailler avec les outils débuggage JEST et React développeur tools pour débugger une single page application.",
             "diapositives": [
@@ -112,7 +112,7 @@
             "id": 7,
             "titre": "ArgentBank - Banque en ligne",
             "lien github": "https://github.com/tsboudot/p10-77events.git",
-            "photo_header": "../src/media/ImagesPortfolio/ArgentBank/argentBank1.png",
+            "photo_header": "/ImagesPortfolio/ArgentBank/argentBank1.png",
             "résumé": "Découverte de REDUX et des States en REACT, et documentation d'API",
             "description": "Pour ce projet, j'ai utilisé REDUX et les States en React pour intégrer certaines fonctionnalités nécéssaires au fonctionnement de l'application. La suite du projet concistait à rédiger la documentation Swagger d'une API pour implémenter d'autres fonctions.",
             "diapositives": [
