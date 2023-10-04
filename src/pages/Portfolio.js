@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navigation from '../components/Navigation';
-import ProjetCard from '../components/ProjectCard'; // Assurez-vous que le chemin est correct
+import ProjetCard from '../components/ProjectCard';
+import Modal from '../components/Modal';  // Importez votre composant modal ici
 
 const Portfolio = () => {
     const [projets, setProjets] = useState([]);
+    const [selectedProjet, setSelectedProjet] = useState(null);
+
+    const openModal = (projet) => {
+        setSelectedProjet(projet);
+    };
+
+    const closeModal = () => {
+        setSelectedProjet(null);
+    };
 
     useEffect(() => {
         // Adaptez ce chemin pour pointer vers votre fichier db.json ou l'URL de votre API
@@ -33,13 +43,13 @@ const Portfolio = () => {
                     {projets.map(projet => (
                         <ProjetCard
                             key={projet.id}
-                            photo_header={projet.photo_header}
-                            titre={projet.titre}
-                            résumé={projet.résumé}
+                            projet={projet}  // Passez tout l'objet projet ici
+                            onProjetClick={openModal}  // Passez la fonction pour ouvrir la modale ici
                         />
                     ))}
                 </div>
             </div>
+            <Modal projet={selectedProjet} onClose={closeModal} />
         </div>
     );
 };
