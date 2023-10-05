@@ -64,7 +64,7 @@ a.visited {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  background-image: url("../../../public/banner2avecnom.png");
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.3), transparent), url("../../../public/banner2avecnom.png");
   background-repeat: no-repeat;
   background-position: 10%;
   background-size: 100%;
@@ -199,7 +199,11 @@ a.visited {
   display: flex;
   flex-direction: row;
   padding: 5px;
-  background-color: white;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../../bodybackground.jpg") no-repeat center center/cover;
+}
+.project-card:hover {
+  transform: translate(5px, 1px);
+  border: solid 1px rgb(99, 164, 233);
 }
 @media screen and (max-width: 850px) {
   .project-card {

@@ -5,7 +5,9 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background-image: url('../../../public/banner2avecnom.png');
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.3), transparent),
+        url('../../../public/banner2avecnom.png');
+
     background-repeat: no-repeat;
     background-position: 10%;
     background-size: 100%;
