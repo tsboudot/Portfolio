@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Kanit:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Kanit:wght@500&display=swap');
 
-$font-1 : 'Exo 2',
+$font-1 : 'Goudy Bookletter 1911',
 sans-serif;
 $font-2 : 'Kanit',
 serif;
@@ -9,16 +9,13 @@ $fontSize-1 : larger;
 $fontSize-2 : large;
 $fontSize-3: medium;
 
-$fontWeight-1 :800;
-$fontWeight-2: 700;
-$fontWeight-3: 500;
 
 
 $color-1 : #2a1d52;
-$color-2 : #6C77f4;
+$color-2 : #d7ab1d;
 $color-3 : rgb(99, 164, 233);
 $color-4 : lightgrey;
-$color-5: lightgreen;
+$color-5: rgb(176, 233, 176);
 $white: #ddd;
 $black: #333;
 
@@ -42,9 +39,10 @@ $min-height: 95vh;
 
 body {
     margin: 1rem auto;
-    max-width: 1200px;
+    max-width: 1400px;
     font-family: $font-1;
-    color: $black;
+    background-image: linear-gradient(to bottom right, #e8ffed 60%, white 60%);
+
 }
 
 button {
@@ -57,13 +55,14 @@ li {
 
 a {
     text-decoration: none;
-    color: $color-3;
-    font-weight: $fontWeight-2;
-    cursor: pointer
+    cursor: pointer;
+    color: $color-2;
+
 }
 
 a.visited {
-    color: $color-3;
+    color: $color-2;
+    text-decoration: none;
 }
 
 .home,

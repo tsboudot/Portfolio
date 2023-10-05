@@ -13,11 +13,11 @@
                     "texte_diapo": "Introduction et mise en pratique du HTML et du CSS"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/Booki/Booki2.png",
+                    "photo_diapo": "../ImagesPortfolio/Booki/Booki2.png",
                     "texte_diapo": "Texte de la diapositive 1 pour le projet 1"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/Booki/Booki3.png",
+                    "photo_diapo": "../ImagesPortfolio/Booki/Booki3.png",
                     "texte_diapo": "Texte de la diapositive 2 pour le projet 1"
                 }
             ]
@@ -35,11 +35,11 @@
                     "texte_diapo": "Intégration de différentes pages avec animations CSS. Travail en *Mobile First*,"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/Ohmyfood/Omf1.png",
+                    "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf2.png",
                     "texte_diapo": "Texte de la diapositive 1 pour le projet 2"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/Ohmyfood/Omf1.png",
+                    "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf3.png",
                     "texte_diapo": "Texte de la diapositive 2 pour le projet 2"
                 }
             ]
@@ -53,11 +53,11 @@
             "description": "Ce projet nécéssitait une bonne maitrise du Javascript natif, pour passer des appels à une API, créer des fonctions de filtrage et de connexion, ou encore intégrer une modale.",
             "diapositives": [
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/SophieBluel/SophieBluel.png",
+                    "photo_diapo": "../ImagesPortfolio/SophieBluel/SophieBluel.png",
                     "texte_diapo": "Texte de la diapositive 1 pour le projet 2"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/SophieBluel/SophieBluel.png",
+                    "photo_diapo": "../ImagesPortfolio/SophieBluel/SophieBluel.png",
                     "texte_diapo": "Texte de la diapositive 2 pour le projet 2"
                 }
             ]
@@ -75,11 +75,11 @@
                     "texte_diapo": "Découverte de React.js"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/Kasa/kasa1.png",
+                    "photo_diapo": "../ImagesPortfolio/Kasa/kasa1.png",
                     "texte_diapo": "Texte de la diapositive 1 pour le projet 2"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/Kasa/kasa1.png",
+                    "photo_diapo": "../ImagesPortfolio/Kasa/kasa1.png",
                     "texte_diapo": "Texte de la diapositive 2 pour le projet 2"
                 }
             ]
@@ -101,7 +101,7 @@
                     "texte_diapo": "Texte de la diapositive 1 pour le projet 2"
                 },
                 {
-                    "photo_diapo": "../src/media/ImagesPortfolio/NinaCarducci/NinaCarducci1.png",
+                    "photo_diapo": "../ImagesPortfolio/NinaCarducci/NinaCarducci1.png",
                     "texte_diapo": "Texte de la diapositive 2 pour le projet 2"
                 }
             ]

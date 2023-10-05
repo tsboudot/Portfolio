@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import CompetenceItem from '../components/CompetenceItem'
-import ParcoursItem from '../components/ParcoursItem';
+import ContentHeader from '../components/ContentHeader';
 
 
 const Homepage = () => {
@@ -9,20 +9,27 @@ const Homepage = () => {
         <div className='homePage'>
             <Navigation />
             <div className='homeContent'>
-                <div className="homeContent_Header">
-                    <h1>Thomas Boudot</h1>
-                    <h3>Développeur Front-End Junior</h3>
-                    <p>Téléchargez mon CV</p>
-                </div>
+                <ContentHeader />
                 <div className='homeContent_main'>
                     <div className='homePageSection' id='Compétences'>
+                        <div className='homePageStart'>
+                            <div className='homePage_QuiSuisje'>
+                                <h3>Qui suis-je ?</h3>
+                                <p>"Passionné par le développement depuis des années, je suis à la recherche de ma première éxperience professionnelle dans ce domaine. Arrivé à la fin du cursus Développeur Intégrateur Web chez OpenClassRooms en octobre 2023, j'ai développé un socle de compétences solides qu'il me tarde de mettre à profil dans un cadre professionnel.</p>
+                                <p>Parmi mes autres expériences, je peux citer une immersion professionnelle d'une semaine réalisée auprès de Jonathan Bouloux, développeur web full stack. Pendant cette periode, j'ai pu le voir travailler, et me familiariser avec les éxigences du métier en situation réelle.</p>
+                                <p>Par ailleurs, j'ai également participé à la piscine de l'école 42 Paris, en mars 2022. Cette periode très intensive m'a beaucoup appris, tant sur moi même que sur les exigences du metier de développeur. "</p>
+                            </div>
+                            <div className='homePage_Img'>
+                                <img src='./ThomasBoudot.jpg' alt='Thomas Boudot' />
+                            </div>
+                        </div>
 
                         <div className='CompétenceSection' id='Compétenceheader'>
                             <h3>Compétences</h3>
                         </div>
 
                         <div className='CompétenceSection' id='CompétenceLangages'>
-                            <h4>Langage</h4>
+                            <h4>Langages</h4>
                             <div className='CompétenceSection_Content'>
                                 <CompetenceItem titre="C" image="./imagesUtils/C.png" />
                                 <CompetenceItem titre="HTML" image="./imagesUtils/HTML.png" />
@@ -44,24 +51,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className='homePageSection'>
-                        <h3>Mon Parcours</h3>
-                        <ParcoursItem
-                            annee="2021 :"
-                            texte="Découverte du Développement, premiers pas en C, en HTML et en CSS"
-                        />
-                        <ParcoursItem
-                            annee="2022 :"
-                            texte="Piscine à l'école 42. Prise en main du Shell, et du langage C, dans un rythme très intensif"
-                        />
-                        <ParcoursItem
-                            annee="2022 :"
-                            texte="Immersion professionnelle d'une semaine auprès de Jonathan Bouloux, développeur full Stack"
-                        />
-                        <ParcoursItem
-                            annee="2023 :"
-                            texte='Cursus Développeur intégrateur WEB pendant 9 mois sur la plateforme <a href="https://www.openclassrooms.com" target="_blank" rel="noopener noreferrer">OpenClassRooms</a>'
-                            dangerouslySetInnerHTML={true}  // Ajouté pour permettre le rendu du HTML dans le texte
-                        />
+
                     </div>
                 </div>
             </div>

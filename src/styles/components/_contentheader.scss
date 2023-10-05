@@ -1,0 +1,9 @@
+.contentHeader {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .contentHeader {
+        display: block;
+    }
+}

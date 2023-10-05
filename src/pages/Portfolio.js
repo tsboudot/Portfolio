@@ -3,7 +3,7 @@ import axios from 'axios';
 import Navigation from '../components/Navigation';
 import ProjetCard from '../components/ProjectCard';
 import Modal from '../components/Modal';  // Importez votre composant modal ici
-
+import ContentHeader from '../components/ContentHeader';
 const Portfolio = () => {
     const [projets, setProjets] = useState([]);
     const [selectedProjet, setSelectedProjet] = useState(null);
@@ -34,11 +34,7 @@ const Portfolio = () => {
         <div className='Portfolio'>
             <Navigation />
             <div className='portfolioContent'>
-                <div className="portfolioContent_Header">
-                    <h1>Thomas Boudot</h1>
-                    <h3>Développeur Front-End Junior</h3>
-                    <p>Téléchargez mon CV</p>
-                </div>
+                <ContentHeader />
                 <div className='portfolioContent_main'>
                     {projets.map(projet => (
                         <ProjetCard

@@ -1,13 +1,14 @@
 .competenceItem {
-    border: 1px solid #ccc;
+
     padding: 10px;
     margin: 10px;
     display: inline-block;
     text-align: center;
+    background-color: white;
+
 }
 
 .competenceImage {
     width: 50px;
-    /* ou la taille que vous préférez */
     height: auto;
 }
