@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className='Contact'>
             <Navigation />
-            <div className='contactContent'>
+            <div className='contactContent slide-in'>
 
                 <ContactForm />
             </div>

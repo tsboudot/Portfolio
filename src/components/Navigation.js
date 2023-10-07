@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className='banner'>
-            <div className='navHeader'>
+            <div className='navHeader animated-text'>
                 <h1>Thomas Boudot</h1>
                 <h2>Développeur intégrateur web</h2>
             </div>

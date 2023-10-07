@@ -13,22 +13,22 @@ const Homepage = () => {
                 <div className='homeContent_main'>
                     <div className='homePageSection' id='Compétences'>
                         <div className='homePageStart'>
-                            <div className='homePage_QuiSuisje'>
+                            <div className='homePage_QuiSuisje slide-in'>
                                 <h3>Qui suis-je ?</h3>
                                 <p>"Passionné par le développement depuis des années, je suis à la recherche de ma première éxperience professionnelle dans ce domaine. Arrivé à la fin du cursus <strong>Développeur Intégrateur Web</strong> chez <strong>OpenClassRooms</strong> en octobre 2023, j'ai développé un socle de compétences solides qu'il me tarde de mettre à profil dans un cadre professionnel.</p>
                                 <p>Parmi mes autres expériences, je peux citer une <strong>immersion professionnelle</strong> réalisée auprès de Jonathan Bouloux, développeur web full stack. Pendant cette periode, j'ai pu le voir travailler, et me familiariser avec les éxigences du métier en situation réelle.</p>
                                 <p>Par ailleurs, j'ai également participé à la piscine de l'école 42 Paris, en mars 2022. Cette periode très intensive m'a beaucoup appris, tant sur moi même que sur les exigences du metier de développeur. "</p>
                             </div>
-                            <div className='homePage_Img'>
+                            <div className='homePage_Img slide-in '>
                                 <img src='./ThomasBoudot.jpg' alt='Thomas Boudot' />
                             </div>
                         </div>
 
-                        <div className='CompétenceSection' id='Compétenceheader'>
+                        <div className='CompétenceSection slide-in' id='Compétenceheader'>
                             <h3>Compétences</h3>
                         </div>
 
-                        <div className='CompétenceSection' id='CompétenceLangages'>
+                        <div className='CompétenceSection slide-in' id='CompétenceLangages'>
                             <h4>Langages</h4>
                             <div className='CompétenceSection_Content'>
                                 <CompetenceItem titre="C" image="./imagesUtils/C.png" />

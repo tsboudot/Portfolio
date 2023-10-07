@@ -33,7 +33,7 @@ const Portfolio = () => {
     return (
         <div className='Portfolio'>
             <Navigation />
-            <div className='portfolioContent'>
+            <div className='portfolioContent slide-in'>
 
                 <h2 className='pageTittle'>Mes Projets</h2>
                 <div className='portfolioContent_main'>
