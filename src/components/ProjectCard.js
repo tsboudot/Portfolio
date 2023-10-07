@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjetCard = ({ projet, onProjetClick }) => {
-    const { photo_header, titre, résumé } = projet; // Destructurer les propriétés depuis l'objet projet
+    const { photo_header, titre } = projet; // Destructurer les propriétés depuis l'objet projet
 
     return (
         <div className="project-card" onClick={() => onProjetClick(projet)}>
