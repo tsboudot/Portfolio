@@ -118,7 +118,7 @@ h3 {
 .banner {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   background-image: url("../../../public/banner.jpg");
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.55);
