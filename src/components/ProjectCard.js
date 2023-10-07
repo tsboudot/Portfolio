@@ -8,7 +8,7 @@ const ProjetCard = ({ projet, onProjetClick }) => {
             <div className="project-background">
                 <img src={photo_header} alt={titre} className="projectCard_img" />
             </div>
-            <div className="project-cardTittle">
+            <div className="project-cardTittle animated-text">
                 <h2>{titre}</h2>
             </div>
         </div>
