@@ -12,19 +12,19 @@ const Navigation = () => {
 
             <div className="navigation">
                 <ul>
-                    <li><NavLink to="/" activeClassName="navActive">
+                    <li><NavLink to="/" >
                         <i className='fas fa-home'></i>
                         <span>Accueil</span>
                     </NavLink></li>
-                    <li><NavLink to="/portfolio" activeClassName="navActive">
+                    <li><NavLink to="/portfolio" >
                         <i class="fa-solid fa-folder"></i>
                         <span>Mon portfolio</span>
                     </NavLink></li>
-                    <li><NavLink to="/contact" activeClassName="navActive">
+                    <li><NavLink to="/contact" >
                         <i class="fa-solid fa-message"></i>
                         <span>Contact</span>
                     </NavLink></li>
-                    <li><NavLink to="/" activeClassName="navActive">
+                    <li><NavLink to="/" >
                         <i class="fa-solid fa-sheet-plastic"></i>
                         <span> Mon CV</span></NavLink></li>
                 </ul>

@@ -235,7 +235,7 @@ h3 {
   }
 }
 .homePageStart .homePage_QuiSuisje p {
-  justify-content: first baseline;
+  justify-content: start;
   margin: 0.5rem;
 }
 .homePageStart .homePage_Img {
@@ -423,10 +423,13 @@ homeContent_main {
 
 .competenceItem {
   padding: 10px;
-  margin: 20px;
+  margin: 10px 5px;
   display: inline-block;
   text-align: center;
   background-color: transparent;
+}
+.competenceItem h4 {
+  margin-bottom: 5px;
 }
 
 .competenceImage {
