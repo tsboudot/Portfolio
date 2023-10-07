@@ -9,6 +9,10 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+
+    p {
+        font-size: $fontSize-3;
+    }
 }
 
 .modal-content {
@@ -43,7 +47,7 @@
     right: 20px;
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: $fontSize-3;
     cursor: pointer;
 }
 
@@ -54,4 +58,16 @@
 
 .slick-slider {
     margin-bottom: 50px;
+}
+
+.slick-prev {
+    display: none;
+}
+
+.slick-next {
+    display: none;
+}
+
+.slick-arrow {
+    display: none;
 }

@@ -1,44 +1,51 @@
 .project-card {
     height: 251px;
-    border-radius: 15px;
-    max-width: 40%;
-    width: 400px;
-    margin: 10px auto;
+    width: 251px;
+    border-radius: 50%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: row;
     padding: 5px;
     color: white;
-    background:
-        linear-gradient(to bottom right, rgba(194, 231, 215, 0.77), rgba(1, 155, 223, 0.3)),
-        url('../../../public/bodybackground.jpg') no-repeat center center/cover;
+    position: relative;
+    cursor: pointer;
+    margin: 3%;
+
 
     &:hover {
         transform: translate(5px, 1px);
         border: solid 1px $color-3;
-
     }
 
-    @media screen and (max-width :850px) {
-        width: 80%;
-        max-width: none;
-    }
-
-    .project-cardLeft {
+    .project-background {
+        width: 100%;
         height: 100%;
-        width: 225px;
-        margin-right: 38px;
+        z-index: 0;
+        position: relative;
 
         img {
-            height: 80%;
             width: 100%;
-            object-fit: cover;
-            margin: auto 0;
-
+            height: 100%;
+            border-radius: 50%;
         }
     }
 
-    .project-cardRight {
-        margin-top: 10%;
+    .project-cardTittle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.35); // pour donner un fond semi-transparent
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+
+        @media screen and (max-width :767px) {
+            display: block;
+        }
     }
+
+    &:hover .project-cardTittle {
+        display: block;
+    }
+
 }

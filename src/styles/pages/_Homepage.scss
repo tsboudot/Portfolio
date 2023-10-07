@@ -2,11 +2,22 @@
     display: flex;
     flex-direction: column;
 
+    p {
+        font-size: $fontSize-3;
+    }
+
+    h3 {
+        font-size: $fontSize-2;
+        margin-bottom: 2.5rem;
+    }
 }
 
 .homeContent {
     text-align: start;
     margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    margin-top: 35px;
 }
 
 .homePageStart {
@@ -26,13 +37,19 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        font-size: 23px;
         justify-content: center;
         text-align: start;
         justify-self: auto;
 
-        h3 {
-            margin-bottom: 10px;
+        @media screen and (max-width :450px) {
+            padding: 0;
+            width: 100%;
+            margin: 0;
+        }
+
+        p {
+            justify-content: first baseline;
+            margin: 0.5rem;
         }
 
 

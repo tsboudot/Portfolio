@@ -5,12 +5,11 @@ const ProjetCard = ({ projet, onProjetClick }) => {
 
     return (
         <div className="project-card" onClick={() => onProjetClick(projet)}>
-            <div className="project-cardLeft">
+            <div className="project-background">
                 <img src={photo_header} alt={titre} className="projectCard_img" />
             </div>
-            <div className="project-cardRight">
+            <div className="project-cardTittle">
                 <h2>{titre}</h2>
-                <p>{résumé}</p>
             </div>
         </div>
     );

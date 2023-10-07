@@ -3,10 +3,10 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
     label {
         margin-bottom: 10px;
-        font-size: 1.1em;
     }
 
     input,
@@ -16,9 +16,16 @@ form {
         padding: 10px;
         margin-bottom: 20px;
         margin-left: 40px;
-        font-size: 1em;
+        font-size: $fontSize-3;
         border: 1px solid #ccc;
         border-radius: 5px;
+
+        @media screen and (max-width :767px) {
+            width: auto;
+            max-width: 100%;
+            margin: 10px 0;
+            padding: 10px 10px;
+        }
     }
 
     textarea {
@@ -28,7 +35,7 @@ form {
 
     button {
         padding: 10px 20px;
-        font-size: 1em;
+        font-size: $fontSize-3;
         border: none;
         border-radius: 5px;
         background-color: #333;

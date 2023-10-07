@@ -27,7 +27,7 @@ const Modal = ({ projet, onClose }) => {
                 </Slider>
                 <p>{projet.description}</p>
                 <a href={projet["lien github"]} target='_blank' rel='noreferrer'>Voir sur Github</a>
-                <button onClick={onClose}>Fermer</button>
+                <button onClick={onClose}><i class="fa-solid fa-xmark"></i></button>
             </div>
         </div>
     );

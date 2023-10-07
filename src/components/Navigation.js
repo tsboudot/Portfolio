@@ -5,6 +5,10 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className='banner'>
+            <div className='navHeader'>
+                <h1>Thomas Boudot</h1>
+                <h2>Développeur intégrateur web</h2>
+            </div>
 
             <div className="navigation">
                 <ul>
@@ -20,9 +24,11 @@ const Navigation = () => {
                         <i class="fa-solid fa-message"></i>
                         <span>Contact</span>
                     </NavLink></li>
-                    <li>Mon CV</li>
+                    <li><NavLink to="/" activeClassName="navActive">
+                        <i class="fa-solid fa-sheet-plastic"></i>
+                        <span> Mon CV</span></NavLink></li>
                 </ul>
-            </div>
+            </div >
         </div >
     );
 };

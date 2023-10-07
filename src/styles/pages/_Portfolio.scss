@@ -10,6 +10,10 @@
     text-align: start;
     margin-left: 25px;
     margin-top: 110px;
+
+    @media screen and (max-width :490px) {
+        margin: 25px auto;
+    }
 }
 
 .portfolioContent_main {
@@ -17,4 +21,14 @@
     flex-direction: row;
     justify-content: start;
     flex-wrap: wrap;
+
+    @media screen and (max-width :767px) {
+        justify-content: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+.pageTittle {
+    margin: 25px auto;
 }
