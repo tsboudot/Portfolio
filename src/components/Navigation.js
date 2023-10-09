@@ -24,9 +24,10 @@ const Navigation = () => {
                         <i class="fa-solid fa-message"></i>
                         <span>Contact</span>
                     </NavLink></li>
-                    <li><NavLink to="/" >
-                        <i class="fa-solid fa-sheet-plastic"></i>
-                        <span> Mon CV</span></NavLink></li>
+                    <li> <a href="CV_BoudotThomasWebpro.pdf" download>
+                        <i className="fa-solid fa-sheet-plastic"></i>
+                        <span>Mon CV</span>
+                    </a></li>
                 </ul>
             </div >
         </div >

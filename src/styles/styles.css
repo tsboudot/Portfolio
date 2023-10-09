@@ -204,6 +204,11 @@ h3 {
   justify-content: center;
   margin-top: 35px;
 }
+@media screen and (max-width: 850px) {
+  .homeContent {
+    margin: 0;
+  }
+}
 
 .homePageStart {
   display: flex;
@@ -340,6 +345,7 @@ homeContent_main {
 @media screen and (max-width: 767px) {
   .project-card .project-cardTittle {
     display: block;
+    transform: translate(-50%, -50%) !important;
   }
 }
 .project-card:hover .project-cardTittle {
