@@ -17,7 +17,6 @@ const Portfolio = () => {
     };
 
     useEffect(() => {
-        // Adaptez ce chemin pour pointer vers votre fichier db.json ou l'URL de votre API
         const fetchData = async () => {
             try {
                 const response = await axios.get('/db.json');
@@ -41,8 +40,8 @@ const Portfolio = () => {
                     {projets.map(projet => (
                         <ProjetCard
                             key={projet.id}
-                            projet={projet}  // Passez tout l'objet projet ici
-                            onProjetClick={openModal}  // Passez la fonction pour ouvrir la modale ici
+                            projet={projet}
+                            onProjetClick={openModal}
                         />
                     ))}
                 </div>
