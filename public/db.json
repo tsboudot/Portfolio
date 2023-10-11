@@ -14,7 +14,7 @@
                 },
                 {
                     "photo_diapo": "../ImagesPortfolio/Booki/Booki3.png",
-                    "texte_diapo": "Strict respect des chartes graphiques"
+                    "texte_diapo": "Strict respect des chartes graphiques."
                 },
                 {
                     "photo_diapo": "../ImagesPortfolio/Booki/Booki4.png",
@@ -84,7 +84,7 @@
                 },
                 {
                     "photo_diapo": "../ImagesPortfolio/Kasa/kasa3.png",
-                    "texte_diapo": "Travail avec React Router Dom pour la navigation"
+                    "texte_diapo": "Travail avec React Router Dom pour la navigation."
                 }
             ]
         },
@@ -120,11 +120,11 @@
             "diapositives": [
                 {
                     "photo_diapo": "./ImagesPortfolio/77events/77events1.png",
-                    "texte_diapo": "Débuggage d'un site d'évenementiel."
+                    "texte_diapo": "Débuggage d'un site d'évènementiel."
                 },
                 {
                     "photo_diapo": "./ImagesPortfolio/77events/77events2.png",
-                    "texte_diapo": "Travail avec les dev tools Google pour identifier les erreures de code."
+                    "texte_diapo": "Travail avec les dev tools Google pour identifier les erreurs de code."
                 },
                 {
                     "photo_diapo": "./ImagesPortfolio/77events/77events3.png",
@@ -138,19 +138,19 @@
             "lien github": "https://github.com/tsboudot/p10-77events.git",
             "photo_header": "./ImagesPortfolio/ArgentBank/banner.jpeg",
             "résumé": "Découverte de REDUX et des States en REACT, et documentation d'API",
-            "description": "Pour ce projet, j'ai utilisé REDUX et les States en React pour intégrer certaines fonctionnalités nécéssaires au fonctionnement de l'application. La suite du projet concistait à rédiger la documentation Swagger d'une API pour implémenter d'autres fonctions.",
+            "description": "Pour ce projet, j'ai utilisé REDUX et les States en React pour intégrer certaines fonctionnalités nécéssaires à l'application. La suite du projet concistait à rédiger la documentation Swagger d'une API pour implémenter d'autres fonctions.",
             "diapositives": [
                 {
                     "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank1.png",
-                    "texte_diapo": "Découverte de REDUX et des States en REACT, et documentation d'API"
+                    "texte_diapo": "Découverte de REDUX et des States en REACT, et documentation d'API."
                 },
                 {
                     "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank2.png",
-                    "texte_diapo": "Travail avec les fonctionnalités de Redux pour gérer une connexion utilisateur"
+                    "texte_diapo": "Travail avec les fonctionnalités de Redux pour gérer une connexion utilisateur."
                 },
                 {
                     "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank3.png",
-                    "texte_diapo": "Utilisation des Redux Dev Tools pour controler l'état de l'application"
+                    "texte_diapo": "Utilisation des Redux Dev Tools pour controler l'état de l'application."
                 }
             ]
         }
