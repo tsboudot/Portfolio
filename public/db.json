@@ -6,7 +6,7 @@
             "lien github": "https://github.com/tsboudot/openclassroomsPROJET03.git",
             "photo_header": "./ImagesPortfolio/Booki/Bookie1.jpg",
             "résumé": "Introduction et mise en pratique du HTML et du CSS",
-            "description": "Réalisation d'une page responsive, conforme à la maquette. Intégration de cartes cliquables. Ajustement des dimensions de différents élements",
+            "description": "Conception et développement d'une page web responsive, respectant rigoureusement les besoins du client. Mise en place de cartes interactives cliquables, avec un souci d'ajustement minutieux des dimensions de chaque élément",
             "diapositives": [
                 {
                     "photo_diapo": "../ImagesPortfolio/Booki/Booki2.png",
@@ -28,7 +28,7 @@
             "lien github": "https://github.com/tsboudot/projet_4.git",
             "photo_header": "/ImagesPortfolio/Ohmyfood/OmfcardImg.jpg",
             "résumé": "Intégration de différentes pages avec animations CSS. Travail en *Mobile First*,",
-            "description": "Ce projet consistait au développement et l'intégration de différentes pages HTML, en utilisant SASS et les animations CSS pour obtenir un résultat conforme à la maquette.",
+            "description": "Ce projet a impliqué la création et l'intégration de plusieurs pages HTML en utilisant SASS ainsi que des animations CSS, afin de garantir une concordance parfaite avec les besoins du client.",
             "diapositives": [
                 {
                     "photo_diapo": "./ImagesPortfolio/Ohmyfood/Omf1.png",
@@ -36,11 +36,11 @@
                 },
                 {
                     "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf2.png",
-                    "texte_diapo": "Travail sur des animations persistantes, où non."
+                    "texte_diapo": "Travail sur des animations persistantes, où non persistantes."
                 },
                 {
                     "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf3.png",
-                    "texte_diapo": "Compréhension des différentes méthodes pour animer du code HTML."
+                    "texte_diapo": "Compréhension des différentes méthodes pour animer des élements HTML."
                 }
             ]
         },
@@ -50,11 +50,11 @@
             "lien github": "https://github.com/tsboudot/P06-master.git",
             "photo_header": "/ImagesPortfolio/SophieBluel/SophieBluelbanner.png",
             "résumé": "Introduction au Javascript",
-            "description": "Ce projet nécéssitait une bonne maitrise du Javascript natif, pour passer des appels à une API, créer des fonctions de filtrage et de connexion, ou encore intégrer une modale.",
+            "description": "La réalisation de ce projet a exigé une maitrise du JavaScript natif, incluant la gestion d'appels à une API, la création de fonctions de filtrage et d'authentification, ainsi que l'intégration d'une fenêtre modale.",
             "diapositives": [
                 {
                     "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel1.png",
-                    "texte_diapo": "Prise en main du javascript pour créer élements de façon autonome."
+                    "texte_diapo": "Prise en main du javascript pour créer des élements de façon autonome."
                 },
                 {
                     "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel2.png",
@@ -94,7 +94,7 @@
             "lien github": "https://github.com/tsboudot/p09-NinaCarducci.git",
             "photo_header": "./ImagesPortfolio/NinaCarducci/banner.jpg",
             "résumé": "Optimisation et référencement d'un site",
-            "description": "Pour ce projet, il fallait améliorer les performances du site de Mme Carducci, en travaillant sur certains aspects techniques. J'ai également travaillé avec lighthouse et les Google Rich Snippets pour améliorer le référencement.",
+            "description": "Dans le cadre de ce projet, l'optimisation des performances du site de Mme Carducci a été au centre de mes préoccupations, avec un focus particulier sur des aspects techniques essentiels. J'ai également collaboré avec Lighthouse et utilisé les Google Rich Snippets pour renforcer la visibilité et le référencement du site.",
             "diapositives": [
                 {
                     "photo_diapo": "./ImagesPortfolio/NinaCarducci/NinaCarducci1.png",
@@ -138,7 +138,7 @@
             "lien github": "https://github.com/tsboudot/p10-77events.git",
             "photo_header": "./ImagesPortfolio/ArgentBank/banner.jpeg",
             "résumé": "Découverte de REDUX et des States en REACT, et documentation d'API",
-            "description": "Pour ce projet, j'ai utilisé REDUX et les States en React pour intégrer certaines fonctionnalités nécéssaires à l'application. La suite du projet concistait à rédiger la documentation Swagger d'une API pour implémenter d'autres fonctions.",
+            "description": "Dans le cadre de ce projet, j'ai exploité Redux ainsi que les états de React pour intégrer des fonctionnalités cruciales à l'application. Par la suite, j'ai pris en charge la rédaction de la documentation Swagger pour une API, afin de faciliter l'implémentation de nouvelles fonctionnalités.",
             "diapositives": [
                 {
                     "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank1.png",

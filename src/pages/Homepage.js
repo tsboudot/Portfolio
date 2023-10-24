@@ -15,9 +15,9 @@ const Homepage = () => {
                         <div className='homePageStart'>
                             <div className='homePage_QuiSuisje slide-in'>
                                 <h3>Qui suis-je ?</h3>
-                                <p>"Passionné par le développement depuis des années, je suis à la recherche de ma première expérience professionnelle dans ce domaine. Arrivé à la fin du cursus <strong>Développeur Intégrateur Web</strong> chez <strong>OpenClassRooms</strong> en octobre 2023, j'ai développé un socle de compétences solides qu'il me tarde de mettre à profit dans un cadre professionnel.</p>
-                                <p>Parmi mes autres expériences, je peux citer une <strong>immersion professionnelle</strong> réalisée auprès de Jonathan Bouloux, développeur web full stack. Pendant cette période, j'ai pu le voir travailler, et me familiariser avec les exigences du métier en situation réelle.</p>
-                                <p>Par ailleurs, j'ai également participé à la <strong>piscine de l'école 42 Paris</strong>, en mars 2022. Cette période très intensive m'a beaucoup appris, tant sur moi même que sur les facettes du métier de développeur. "</p>
+                                <p>"Animé par une passion pour le développement depuis plusieurs années, je suis actuellement à la recherche de ma première opportunité professionnelle dans ce domaine. Mon parcours m'a conduit à achever avec succès la formation <strong>Développeur Intégrateur Web</strong> chez OpenClassRooms en octobre 2023, où j'ai acquis une solide base de compétences que je suis impatient de mettre en œuvre dans un environnement professionnel.</p>
+                                <p>Mon expérience inclut également une immersion professionnelle aux côtés de <strong>Jonathan Bouloux</strong>, un développeur web full stack. Cette expérience m'a permis de suivre son travail de près et de me familiariser avec les exigences du métier dans un contexte réel.</p>
+                                <p>De plus, j'ai eu l'opportunité de participer à la piscine de <strong>l'école</strong> 42 Paris en mars 2022. Cette expérience intensive m'a apporté des enseignements précieux, tant sur le plan personnel que sur les différentes facettes du métier de développeur."</p>
                             </div>
                             <div className='homePage_Img slide-in '>
                                 <img src='./ThomasBoudot.jpg' alt='Thomas Boudot' />
