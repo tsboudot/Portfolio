@@ -31,11 +31,12 @@ const Homepage = () => {
                         <div className='CompétenceSection slide-in' id='CompétenceLangages'>
                             <h4>Langages</h4>
                             <div className='CompétenceSection_Content'>
-                                <CompetenceItem titre="C" image="./imagesUtils/C2.png" />
+
                                 <CompetenceItem titre="HTML" image="./imagesUtils/html2.png" />
                                 <CompetenceItem titre="CSS" image="./imagesUtils/Css2.png" />
                                 <CompetenceItem titre="Sass" image="./imagesUtils/Sass2.png" />
                                 <CompetenceItem titre="Javascript" image="./imagesUtils/JS.png" />
+                                <CompetenceItem titre="C" image="./imagesUtils/C2.png" />
                             </div>
                         </div>
                         <div className='CompétenceSection' id='CompétenceLibrairies'></div>
@@ -48,7 +49,7 @@ const Homepage = () => {
                         <div className='CompétenceSection' id='CompétenceOutils'>
                             <h4>Outils</h4>
                             <div className='CompétenceSection_Content'>
-                                <CompetenceItem titre="Git hub" image="./imagesUtils/github1.png" /></div>
+                                <CompetenceItem titre="GitHub" image="./imagesUtils/github1.png" /></div>
                         </div>
                     </div>
                     <div className='homePageSection'>

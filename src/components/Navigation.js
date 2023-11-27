@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className='banner'>
             <div className='navHeader animated-text'>
                 <h1>Thomas Boudot</h1>
-                <h2>Développeur intégrateur web</h2>
+                <h2>Développeur frontend React / Javascript</h2>
             </div>
 
             <div className="navigation">
