@@ -20,7 +20,7 @@ const Homepage = () => {
                                 <p>De plus, j'ai eu l'opportunité de participer à la piscine de <strong>l'école</strong> 42 Paris en mars 2022. Cette expérience intensive m'a apporté des enseignements précieux, tant sur le plan personnel que sur les différentes facettes du métier de développeur."</p>
                             </div>
                             <div className='homePage_Img slide-in '>
-                                <img src='./ThomasBoudot.jpg' alt='Thomas Boudot' />
+                                <img src='./ThomasBoudot.webp' alt='Thomas Boudot' />
                             </div>
                         </div>
 
@@ -49,6 +49,7 @@ const Homepage = () => {
                         <div className='CompétenceSection' id='CompétenceOutils'>
                             <h4>Outils</h4>
                             <div className='CompétenceSection_Content'>
+                                <CompetenceItem titre="Git" image="./imagesUtils/Git.png" />
                                 <CompetenceItem titre="GitHub" image="./imagesUtils/github1.png" /></div>
                         </div>
                     </div>
