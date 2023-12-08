@@ -24,7 +24,7 @@ const Navigation = () => {
                         <i class="fa-solid fa-message"></i>
                         <span>Contact</span>
                     </NavLink></li>
-                    <li> <a href="CV_Boudot_Thomas.pdf" download>
+                    <li> <a href="CV_Boudot.pdf" download>
                         <i className="fa-solid fa-sheet-plastic"></i>
                         <span>Mon CV</span>
                     </a></li>
