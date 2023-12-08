@@ -20,7 +20,7 @@ const Homepage = () => {
                                 <p>De plus, j'ai eu l'opportunité de participer à la piscine de <strong>l'école</strong> 42 Paris en mars 2022. Cette expérience intensive m'a apporté des enseignements précieux, tant sur le plan personnel que sur les différentes facettes du métier de développeur."</p>
                             </div>
                             <div className='homePage_Img slide-in '>
-                                <img src='./ThomasBoudot.webp' alt='Thomas Boudot' />
+                                <img src='./ThomasBoudot.jpeg' alt='Thomas Boudot' />
                             </div>
                         </div>
 

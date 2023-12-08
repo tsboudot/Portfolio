@@ -4,20 +4,20 @@
             "id": 1,
             "titre": "Booki",
             "lien github": "https://github.com/tsboudot/openclassroomsPROJET03.git",
-            "photo_header": "./ImagesPortfolio/Booki/Bookie1.webp",
+            "photo_header": "./ImagesPortfolio/Booki/Bookie1.jpeg",
             "résumé": "Introduction et mise en pratique du HTML et du CSS",
             "description": "Conception et développement d'une page web responsive, respectant rigoureusement les besoins du client. Mise en place de cartes interactives cliquables, avec un souci d'ajustement minutieux des dimensions de chaque élément",
             "diapositives": [
                 {
-                    "photo_diapo": "../ImagesPortfolio/Booki/Booki2.webp",
+                    "photo_diapo": "../ImagesPortfolio/Booki/Booki2.jpeg",
                     "texte_diapo": "Appréhension de la manière dont imbriquer des composants html."
                 },
                 {
-                    "photo_diapo": "../ImagesPortfolio/Booki/Booki3.webp",
+                    "photo_diapo": "../ImagesPortfolio/Booki/Booki3.jpeg",
                     "texte_diapo": "Strict respect des chartes graphiques."
                 },
                 {
-                    "photo_diapo": "../ImagesPortfolio/Booki/Booki4.webp",
+                    "photo_diapo": "../ImagesPortfolio/Booki/Booki4.jpeg",
                     "texte_diapo": "Travail sur les backgrounds, les bordures et les couleurs."
                 }
             ]
@@ -26,20 +26,20 @@
             "id": 2,
             "titre": "OhMyFood",
             "lien github": "https://github.com/tsboudot/projet_4.git",
-            "photo_header": "/ImagesPortfolio/Ohmyfood/OmfcardImg.webp",
+            "photo_header": "/ImagesPortfolio/Ohmyfood/OmfcardImg.jpeg",
             "résumé": "Intégration de différentes pages avec animations CSS. Travail en *Mobile First*,",
             "description": "Ce projet a impliqué la création et l'intégration de plusieurs pages HTML en utilisant SASS ainsi que des animations CSS, afin de garantir une concordance parfaite avec les besoins du client.",
             "diapositives": [
                 {
-                    "photo_diapo": "./ImagesPortfolio/Ohmyfood/Omf1.webp",
+                    "photo_diapo": "./ImagesPortfolio/Ohmyfood/Omf1.jpeg",
                     "texte_diapo": "Intégration de différentes pages avec animations CSS. Travail en *Mobile First*,"
                 },
                 {
-                    "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf2.webp",
+                    "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf2.jpeg",
                     "texte_diapo": "Travail sur des animations persistantes, où non persistantes."
                 },
                 {
-                    "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf3.webp",
+                    "photo_diapo": "../ImagesPortfolio/Ohmyfood/Omf3.jpeg",
                     "texte_diapo": "Compréhension des différentes méthodes pour animer des élements HTML."
                 }
             ]
@@ -48,20 +48,20 @@
             "id": 3,
             "titre": "Sophie Bluel",
             "lien github": "https://github.com/tsboudot/P06-master.git",
-            "photo_header": "/ImagesPortfolio/SophieBluel/SophieBluelbanner.webp",
+            "photo_header": "/ImagesPortfolio/SophieBluel/SophieBluelbanner.jpeg",
             "résumé": "Introduction au Javascript",
             "description": "La réalisation de ce projet a exigé une maitrise du JavaScript natif, incluant la gestion d'appels à une API, la création de fonctions de filtrage et d'authentification, ainsi que l'intégration d'une fenêtre modale.",
             "diapositives": [
                 {
-                    "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel1.webp",
+                    "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel1.jpeg",
                     "texte_diapo": "Prise en main du javascript pour créer des élements de façon autonome."
                 },
                 {
-                    "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel2.webp",
+                    "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel2.jpeg",
                     "texte_diapo": "Appréhension des API pour créer un formulaire de connexion."
                 },
                 {
-                    "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel3.webp",
+                    "photo_diapo": "/ImagesPortfolio/SophieBluel/SophieBluel3.jpeg",
                     "texte_diapo": "Création des fonctions API pour gérer les objets en backend."
                 }
             ]
@@ -70,20 +70,20 @@
             "id": 4,
             "titre": "Kasa",
             "lien github": "https://github.com/tsboudot/KasaP08.git",
-            "photo_header": "./ImagesPortfolio/Kasa/banner1.webp",
+            "photo_header": "./ImagesPortfolio/Kasa/banner1.jpeg",
             "résumé": "Découverte de React.js",
             "description": "Ce projet consistait au développement et l'intégration d'une Single Page Application, conformément à une maquette, en utilisant les fonctionnalités de la bibliothèque REACT.js.",
             "diapositives": [
                 {
-                    "photo_diapo": "../ImagesPortfolio/Kasa/kasa1.webp",
+                    "photo_diapo": "../ImagesPortfolio/Kasa/kasa1.jpeg",
                     "texte_diapo": "Découverte de la logique composant de React.js."
                 },
                 {
-                    "photo_diapo": "./ImagesPortfolio/Kasa/kasa2.webp",
+                    "photo_diapo": "./ImagesPortfolio/Kasa/kasa2.jpeg",
                     "texte_diapo": "Travail sur ces composants dans le respect de la charte graphique du projet."
                 },
                 {
-                    "photo_diapo": "../ImagesPortfolio/Kasa/kasa3.webp",
+                    "photo_diapo": "../ImagesPortfolio/Kasa/kasa3.jpeg",
                     "texte_diapo": "Travail avec React Router Dom pour la navigation."
                 }
             ]
@@ -92,20 +92,20 @@
             "id": 5,
             "titre": "Nina Carducci",
             "lien github": "https://github.com/tsboudot/p09-NinaCarducci.git",
-            "photo_header": "./ImagesPortfolio/NinaCarducci/banner.webp",
+            "photo_header": "./ImagesPortfolio/NinaCarducci/banner.jpeg",
             "résumé": "Optimisation et référencement d'un site",
             "description": "Dans le cadre de ce projet, l'optimisation des performances du site de Mme Carducci a été au centre de mes préoccupations, avec un focus particulier sur des aspects techniques essentiels. J'ai également collaboré avec Lighthouse et utilisé les Google Rich Snippets pour renforcer la visibilité et le référencement du site.",
             "diapositives": [
                 {
-                    "photo_diapo": "./ImagesPortfolio/NinaCarducci/NinaCarducci1.webp",
+                    "photo_diapo": "./ImagesPortfolio/NinaCarducci/NinaCarducci1.jpeg",
                     "texte_diapo": "Refactorisation des codes pour un comportement plus rapide du site."
                 },
                 {
-                    "photo_diapo": "./ImagesPortfolio/NinaCarducci/NinaCarducci2.webp",
+                    "photo_diapo": "./ImagesPortfolio/NinaCarducci/NinaCarducci2.jpeg",
                     "texte_diapo": "Travail avec les rich Google Snippets pour un meilleure référencement."
                 },
                 {
-                    "photo_diapo": "../ImagesPortfolio/NinaCarducci/NinaCarducci3.webp",
+                    "photo_diapo": "../ImagesPortfolio/NinaCarducci/NinaCarducci3.jpeg",
                     "texte_diapo": "Amélioration générale du rapport Lighthouse."
                 }
             ]
@@ -114,20 +114,20 @@
             "id": 6,
             "titre": "77events",
             "lien github": "https://github.com/tsboudot/p10-77events.git",
-            "photo_header": "./ImagesPortfolio/77events/banner.webp",
+            "photo_header": "./ImagesPortfolio/77events/banner.jpeg",
             "résumé": "Découverte de JEST.js pour le débuggage d'un site ",
             "description": "Ce projet consistait à travailler avec les outils débuggage JEST et React développeur tools pour débugger une single page application.",
             "diapositives": [
                 {
-                    "photo_diapo": "./ImagesPortfolio/77events/77events1.webp",
+                    "photo_diapo": "./ImagesPortfolio/77events/77events1.jpeg",
                     "texte_diapo": "Débuggage d'un site d'évènementiel."
                 },
                 {
-                    "photo_diapo": "./ImagesPortfolio/77events/77events2.webp",
+                    "photo_diapo": "./ImagesPortfolio/77events/77events2.jpeg",
                     "texte_diapo": "Travail avec les dev tools Google pour identifier les erreurs de code."
                 },
                 {
-                    "photo_diapo": "./ImagesPortfolio/77events/77events3.webp",
+                    "photo_diapo": "./ImagesPortfolio/77events/77events3.jpeg",
                     "texte_diapo": "Travail avec Jest pour développer des tests fonctionnels et d'intégration."
                 }
             ]
@@ -136,20 +136,20 @@
             "id": 7,
             "titre": "ArgentBank",
             "lien github": "https://github.com/tsboudot/p10-77events.git",
-            "photo_header": "./ImagesPortfolio/ArgentBank/banner.webp",
+            "photo_header": "./ImagesPortfolio/ArgentBank/banner.jpeg",
             "résumé": "Découverte de REDUX et des States en REACT, et documentation d'API",
             "description": "Dans le cadre de ce projet, j'ai exploité Redux ainsi que les états de React pour intégrer des fonctionnalités cruciales à l'application. Par la suite, j'ai pris en charge la rédaction de la documentation Swagger pour une API, afin de faciliter l'implémentation de nouvelles fonctionnalités.",
             "diapositives": [
                 {
-                    "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank1.webp",
+                    "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank1.jpeg",
                     "texte_diapo": "Découverte de REDUX et des States en REACT, et documentation d'API."
                 },
                 {
-                    "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank2.webp",
+                    "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank2.jpeg",
                     "texte_diapo": "Travail avec les fonctionnalités de Redux pour gérer une connexion utilisateur."
                 },
                 {
-                    "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank3.webp",
+                    "photo_diapo": "./ImagesPortfolio/ArgentBank/argentBank3.jpeg",
                     "texte_diapo": "Utilisation des Redux Dev Tools pour controler l'état de l'application."
                 }
             ]
